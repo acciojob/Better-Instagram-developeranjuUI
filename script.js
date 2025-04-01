@@ -27,9 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 draggedElement.style.backgroundImage = window.getComputedStyle(event.target).backgroundImage;
                 event.target.style.backgroundImage = tempBg;
 
-                let tempText = draggedElement.innerText;
-                draggedElement.innerText = event.target.innerText;
-                event.target.innerText = tempText;
+                // let tempText = draggedElement.innerText;
+                // draggedElement.innerText = event.target.innerText;
+                // event.target.innerText = tempText;
             }
         });
     });
